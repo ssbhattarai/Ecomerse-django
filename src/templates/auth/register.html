@@ -1,0 +1,19 @@
+  
+
+    <main role="main" class="container">
+    <div class="container">
+  <h1> Register Form</h1>
+    <div class="row">
+      <div class="col">
+      <div class="col-sm-6 col-12">
+        <form method="POST">{% csrf_token %}
+          {{ form }}
+          <button type="submit" class="btn btn-success">Register</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+    </main>
+
+  

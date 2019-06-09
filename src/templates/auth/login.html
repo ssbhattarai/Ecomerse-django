@@ -1,0 +1,16 @@
+
+  
+    <main role="main" class="container">
+    <div class="row">
+      <div class="col">
+      <div class="col-sm-6 col-12">
+      <h1> Login Form </h1>
+        <form method="POST">{% csrf_token %}
+          {{ form }}
+          <button type="submit" class="btn btn-success">Log in</button>
+        </form>
+        </div>
+      </div>
+    </div>
+    </main>
+  
